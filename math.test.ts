@@ -3,7 +3,7 @@ import { describe, test, expect } from "@jest/globals";
 
 describe("Sum function", () => {
   test("Сумма положительных чисел", () => {
-    expect(sum(2, 3)).toBe(5);
+    expect(sum(8, 3)).toBe(11);
   });
 
   test("Сумма отрицательных чисел", () => {
